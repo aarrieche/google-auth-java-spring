@@ -17,7 +17,7 @@ public class SecurityConfig {
             )
             .csrf(csrf -> csrf.disable())
             .oauth2Login(oauth -> oauth
-                .loginPage("/signin") // sua view personalizada
+                .loginPage("/signin")
                 .defaultSuccessUrl("/", true)
             )
             .logout(logout -> logout
