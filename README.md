@@ -31,9 +31,11 @@ Este projeto demonstra como implementar autenticação com o Google utilizando J
 ```bash
 git clone https://github.com/seunome/google-auth-java-spring.git
 cd google-auth-java-spring
+```
 
 ### ✅ 2. Crie uma credencial OAuth no Google
 
+```bash
 Acesse o [Google Cloud Console](https://console.cloud.google.com/apis/credentials)
 
 - Vá em **APIs e serviços > Credenciais**
@@ -48,4 +50,4 @@ http://localhost:8080/login/oauth2/code/google
 - Copie o **Client ID** e o **Client Secret** e cole no seu application.yml
 
 cp src/main/resources/application-example.yml src/main/resources/application.yml
-
+```
