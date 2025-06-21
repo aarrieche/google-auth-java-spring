@@ -1,4 +1,4 @@
-package com.arrieche.google_auth.controller;
+package com.arrieche.googleauth.controller;
 
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.stereotype.Controller;

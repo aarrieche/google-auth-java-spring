@@ -2,6 +2,8 @@
 
 Este projeto demonstra como implementar autenticação com o Google utilizando Java 21 e Spring Boot. Ele é ideal como ponto de partida para aplicações seguras com login social via OAuth2.
 
+![Tela de login](./assets/print-google-auth.png)
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
